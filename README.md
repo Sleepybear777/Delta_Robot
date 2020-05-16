@@ -3,9 +3,12 @@ A robot controller that computes the necessary degrees for each joint to reach a
 DRC can be used for any custom 3 DOF delta robot with servo motors supports the Arduino framework.
 DRC is written in C++, uses the PlatformIO IDE and Arduino framework.
 ## Freatures:
-* Cartesian coordinate conversion to joint degrees.
-* 
+* Library for converting cartesian coordinates to joint degrees.
+* Test pattern - Circle.
 ## Todo:
+* Implement post processor for RoboDK
+* Commands trough terminal.
+* Trajectory planning
 ## References:
 Computations are based on inverse kinematics from:
 R.L. Williams II, “The Delta Parallel Robot: Kinematics Solutions”, Internet Publication,
