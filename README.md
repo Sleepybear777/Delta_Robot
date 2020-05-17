@@ -1,6 +1,6 @@
 # DRC - Delta robot controller:
 A robot controller that computes the necessary degrees for each joint to reach a 3D coordinate in a cartesian space.
-DRC can be used for any custom 3 DOF delta robot with servo motors supports the Arduino framework.
+DRC can be used for any custom 3 DOF delta robot that is controlled by servo motors and Arduino framework based microprocessors.
 DRC is written in C++, uses the PlatformIO IDE and Arduino framework.
 ## Freatures:
 * Library for converting cartesian coordinates to joint degrees.
